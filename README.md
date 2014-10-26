@@ -44,8 +44,7 @@ Path to your swagger documentation file. This don't has to be the whole JSON, yo
 Use `x-controller` to define which controller to use.
 
 ```JSON
-  [...]
-
+{
   "paths": {
     "/pets": {
       "get": {
@@ -54,9 +53,7 @@ Use `x-controller` to define which controller to use.
         "operationId": "listAll",
         "produces": [
           "application/json",
-        ],
-
-        [...]
+        ]
 ```
 
 This will call the `listAll` function of `pets.js` in your defined controller directory.

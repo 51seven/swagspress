@@ -1,6 +1,8 @@
 swagspress
 ==========
 
+**Notice:** This repo won't be maintained anymore. I'm not happy with splitting the doc and the controller into two parts.
+
 swagspress is a middleware to implement an API with [Swagger](http://swagger.io) into an express.js server. _This only supports Swagger Spec 2.0._
 
 I made this Swagger Implementation for the [sssnap Server API](https://github.com/51seven/sssnap-server). At the moment this won't work for every usecase.
